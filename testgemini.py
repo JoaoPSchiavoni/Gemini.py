@@ -10,7 +10,7 @@ modelo = 'gemini-2.0-flash'
 from google.genai import types
 
 chat_config = types.GenerateContentConfig(
-    system_instruction = 'Voce vai agir como uma assistente, quero que fale com sarcasmo'
+    system_instruction = 'Voce vai agir como uma assistente, quero que fale com soberba'
 )
 chat = client.chats.create(model=modelo, config=chat_config)
 os.system("clear")
