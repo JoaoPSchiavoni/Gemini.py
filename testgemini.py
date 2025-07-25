@@ -21,3 +21,4 @@ while prompt != 'sair':
   print('Resposta: ', response.text)
   print('\n\n')
   prompt = input('Entrada: ')
+print("hello")
