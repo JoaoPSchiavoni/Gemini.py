@@ -1,7 +1,7 @@
 import os
 from google import genai
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyA3tA1WpDOvi1t8LprsnjSEuwI4v5C1LUc'
+os.environ['GOOGLE_API_KEY'] = 'APIKEY'
 client = genai.Client()
 '''for model in client.models.list():
     print(model.name)
